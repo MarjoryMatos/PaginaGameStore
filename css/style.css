@@ -1,0 +1,87 @@
+.bgBlack{
+    background-color: black;
+}
+
+.colorfont{
+    color: rgb(175, 9, 125) !important;
+}
+
+.bordercolor{
+    border-color: rgb(175, 9, 125) !important;;
+}
+
+.colorfontBoton{
+    color: rgb(175, 150, 9) !important;
+}
+
+.bordercolorBoton{
+    border-color: rgb(175, 150, 9) !important;
+}
+
+.botonbg{
+    background-color: rgba(219, 223, 15, 0.486);
+}
+
+.margemTop{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.marginBoton {
+    margin-left: 2.5px;
+}
+
+.imgCard2 {
+    margin-top: 15px;
+    
+}
+
+.marginBoton2{
+    margin-top: 30px;
+}
+
+.cardsBg{
+    background-color: rgba(15, 15, 15, 0.863);
+}
+
+.centraCarrousel{
+    margin-left: 350px ;
+}
+
+.videocenter{
+    padding: 50px;
+    text-align: center;
+}
+
+.textovideo{
+    margin-top: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.tamanhoIcones{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    
+}
+
+.colorfooter{
+    
+    background-color: #696969	;
+}
+
+.icol{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    
+}
+
+.rodape{
+    
+    padding: 10px;
+    text-align: center;
+    color:aliceblue
+}

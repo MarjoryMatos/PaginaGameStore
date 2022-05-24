@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameStore</title>
+    <link rel="icon" type="image/jpg" href="icone/controle-de-video-game (1).png" />
+    <!--Link para pegar estilo CSS dos servidores Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/carrousel.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body class="cardsBg">
+
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bgBlack">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="https://cdn-icons-png.flaticon.com/512/2132/2132870.png"
+          alt="game"
+          width="50px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link colorfont" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link colorfont" href="contato.html">Conta</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle colorfont"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Lista
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item colorfont" href="ps4.html">PS4</a>
+              <a class="dropdown-item colorfont" href="xbox.html">XBOX</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item colorfont" href="pc.html">PC</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-success my-2 my-sm-0 colorfont bordercolor"
+            type="submit"
+          >
+            Buscar
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!--/Menu-->
+    <!--Cards-->
+    <div class="card-deck-wrapper margemTop">
+      <div class="card-deck">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="https://arenafunkos.com.br/wp-content/uploads/2021/12/Funko_Pop_Games___Playstation_The_Last_Of_Us_Part_2_Clicker_631_Special_Edition_252034-1.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-block">
+            <h4 class="card-title">Funko The Last of Us</h4>
+            <p class="card-text">
+              FUNKO POP GAMES – PLAYSTATION THE LAST OF US PART 2 CLICKER 631
+              (SPECIAL EDITION)
+            </p>
+            <button
+              type="button"
+              class="btn btn-secondary btn-sm botonbg colorfontBoton bordercolorBoton marginBoton"
+            >
+              Comprar
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top imgCard2"
+            src="https://m.media-amazon.com/images/I/71Ba7YtPyuL._AC_SX425_.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-block">
+            <h4 class="card-title">Funko Good Of Wars</h4>
+            <p class="card-text">
+              FUNKO POP! GAMES: God of War - Kratos w/ Axe
+            </p>
+            <button
+              type="button"
+              class="btn btn-secondary btn-sm botonbg colorfontBoton bordercolorBoton marginBoton marginBoton2"
+            >
+              Comprar
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="https://cdn.awsli.com.br/1000x1000/53/53761/produto/102839840/3cb7d87e91.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-block">
+            <h4 class="card-title">Funko Rashetn and Clank</h4>
+            <p class="card-text">
+              FUNKO POP PLAYSTATION GAMES RATCHET & CLANK 2PACK
+            </p>
+            <button
+              type="button"
+              class="btn btn-secondary btn-sm botonbg colorfontBoton bordercolorBoton marginBoton"
+            >
+              Comprar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Cards-->
+
+    <!--Carrousel-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide margemTop"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.hardware.com.br/static/wp/2020/11/18/The-Last-of-Us-Part-II_Capa.jpg?fm=pjpg&ixlib=php-3.3.0"
+            class="d-block w-50 centraCarrousel"
+            alt="The Last Of Us"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.pinimg.com/originals/5e/8e/e2/5e8ee228e302dceb422d4c4c79f6d6d3.jpg"
+            class="d-block w-50 centraCarrousel"
+            alt="Genshin Impact"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://1hitgames.com/wp-content/uploads/2019/12/Rocket-League-1.jpg"
+            class="d-block w-50 centraCarrousel"
+            alt="Rocket League"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-target="#carouselExampleIndicators"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-target="#carouselExampleIndicators"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+
+    <!--/Carrousel-->
+
+    <!--Carrousel-->
+    <div class="container cta-100">
+      <div class="container">
+        <div class="row blog">
+          <div class="col-md-12">
+            <div
+              id="blogCarousel"
+              class="carousel slide container-blog"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#blogCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#blogCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white">
+                            <span class="mon">Promoção</span>
+                          </div>
+                          <!--Image-->
+                          <figure>
+                            <img
+                              alt=""
+                              src="https://m.media-amazon.com/images/I/71p8G+YeA6L._AC_SL1500_.jpg"
+                            />
+                          </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>The Last of Us 2</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div
+                            class="item-box-blog-data"
+                            style="padding: px 15px"
+                          >
+                            <p>
+                              <i class="fa fa-user-o"></i> Admin,
+                              <i class="fa fa-comments-o"></i> Comments(3)
+                            </p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>
+                              Um dos jogos mais aguardados de 2020. 
+                              Siga a jornada excepcional da Ellie em um 
+                              ambiente cheio de mistérios com infectados 
+                              monstruosamente evoluídos.
+                              </p>
+                          </div>
+                          <div class="mt">
+                            <a
+                              href="#"
+                              tabindex="0"
+                              class="btn bg-blue-ui white read"
+                              >Comprar</a
+                            >
+                          </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white">
+                            <span class="mon">Lançamento</span>
+                          </div>
+                          <!--Image-->
+                          <figure>
+                            <img
+                              alt=""
+                              src="https://m.media-amazon.com/images/I/71PqM1pqVeL._AC_SX466_.jpg"
+                            />
+                          </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Ghost Of Tsushima</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div
+                            class="item-box-blog-data"
+                            style="padding: px 15px"
+                          >
+                            <p>
+                              <i class="fa fa-user-o"></i> Admin,
+                              <i class="fa fa-comments-o"></i> Comments(3)
+                            </p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>
+                              Na tsushima devastada, uma beleza ancestral resiste 
+                              A ascensão do fantasma: na jornada para reaver tsushima
+                              Lama, sangue e aço
+                            </p>
+                          </div>
+                          <div class="mt">
+                            <a
+                              href="#"
+                              tabindex="0"
+                              class="btn bg-blue-ui white read"
+                              >Comprar</a
+                            >
+                          </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white">
+                            <span class="mon">Lançamento</span>
+                          </div>
+                          <!--Image-->
+                          <figure>
+                            <img
+                              alt="Spider Man"
+                              src="https://m.media-amazon.com/images/I/61F8Iyxqf6L._AC_SL1000_.jpg"
+                            />
+                          </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Miles Morales </h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div
+                            class="item-box-blog-data"
+                            style="padding: px 15px"
+                          >
+                            <p>
+                              <i class="fa fa-user-o"></i> Admin,
+                              <i class="fa fa-comments-o"></i> Comments(3)
+                            </p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>
+                              Experimente a ascensão de Miles Morales 
+                              como o herói que domina os novos, incríveis 
+                              e explosivos poderes para se tornar o próprio Spider-Man
+                            </p>
+                          </div>
+                          <div class="mt">
+                            <a
+                              href="#"
+                              tabindex="0"
+                              class="btn bg-blue-ui white read"
+                              >Comprar</a
+                            >
+                          </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--.row-->
+                </div>
+                <!--.item-->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white">
+                            <span class="mon">Promoção</span>
+                          </div>
+                          <!--Image-->
+                          <figure>
+                            <img
+                              alt=""
+                              src="https://images-na.ssl-images-amazon.com/images/I/71so6Ci3guL._AC._SR360,460.jpg"
+                            />
+                          </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>AssasinS Creed IV</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div
+                            class="item-box-blog-data"
+                            style="padding: px 15px"
+                          >
+                            <p>
+                              <i class="fa fa-user-o"></i> Admin,
+                              <i class="fa fa-comments-o"></i> Comments(3)
+                            </p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>
+                              Um assassino rebelde e extravagante
+                              Explore um novo mundo repleto de oportunidades
+                              Seja o pirata mais temido do caribe
+                              As melhorias no navio são essenciais para o avanço de Edward no jogo
+                            </p>
+                          </div>
+                          <div class="mt">
+                            <a
+                              href="#"
+                              tabindex="0"
+                              class="btn bg-blue-ui white read"
+                              >read more</a
+                            >
+                          </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white">
+                            <span class="mon">Lançamento</span>
+                          </div>
+                          <!--Image-->
+                          <figure>
+                            <img
+                              alt="Fifa 22"
+                              src="https://http2.mlstatic.com/D_NQ_NP_928536-MLB47065035892_082021-O.webp"
+                            />
+                          </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Fifa 2022</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div
+                            class="item-box-blog-data"
+                            style="padding: px 15px"
+                          >
+                            <p>
+                              <i class="fa fa-user-o"></i> Admin,
+                              <i class="fa fa-comments-o"></i> Comments(3)
+                            </p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>
+                            A jogabilidade reimaginada cria avanços fundamentais
+                             que você vai sentir em todos os modos do FIFA 22
+                            A recriação de goleiros e goleiras leva mais 
+                            compostura e consistência à posição mais importante do campo
+
+                            </p>
+                          </div>
+                          <div class="mt">
+                            <a
+                              href="#"
+                              tabindex="0"
+                              class="btn bg-blue-ui white read"
+                              >Comprar</a
+                            >
+                          </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white">
+                            <span class="mon">Lançamento</span>
+                          </div>
+                          <!--Image-->
+                          <figure>
+                            <img
+                              alt=""
+                              src="https://images-na.ssl-images-amazon.com/images/I/71D3j+8amjL._AC._SR360,460.jpg"
+                            />
+                          </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Harry Potter Lego</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div
+                            class="item-box-blog-data"
+                            style="padding: px 15px"
+                          >
+                            <p>
+                              <i class="fa fa-user-o"></i> Admin,
+                              <i class="fa fa-comments-o"></i> Comments(3)
+                            </p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>
+                              Dois videogames campeões de vendas remasterizados
+                               em um pacote! LEGO Harry Potter: Years 1-4, 
+                               baseado nos primeiros quatro filmes, Harry Potter 
+                               e a Pedra Filosofal, Harry Potter e a Cmara Secreta, 
+                               Harry Potter e o Prisioneiro de Azkaban e Harry Potter e o Cálice de Fogo. 
+                                
+                              </p>
+                          </div>
+                          <div class="mt">
+                            <a
+                              href="#"
+                              tabindex="0"
+                              class="btn bg-blue-ui white read"
+                              >Comprar</a
+                            >
+                          </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--.row-->
+                </div>
+                <!--.item-->
+              </div>
+              <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--/Carrousel-->
+
+    <!--Footer-->
+    <hr>
+        <footer class="colorfooter">
+          <div class="icol">
+            <a href="https://www.linkedin.com/in/marjory-matos/" target="_blank">
+              <img class="tamanhoIcones" src="icone/linkedin.png" alt="Linkedin">
+            </a>  
+      
+            <a href="https://github.com/MarjoryMatos" target="_blank">
+              <img class="tamanhoIcones" src="icone/github.png" alt="github">
+            </a>
+          </div>
+      
+         <p class = "rodape"> Todos os direitos reservados: Marjory Matos 2022 &copy; </p>
+        </footer>
+
+    <!--Script para utilização dos códigos JS do Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
